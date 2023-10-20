@@ -1,8 +1,8 @@
 # You need to run Ubuntu 20.04.6 LTS (Focal Fossa) for easy install
 
 sudo apt update &&
-# Download firewall & creating rules
 
+# Download firewall & creating rules
 sudo apt install ufw &&
 sudo ufw allow 22 &&
 sudo ufw allow 80 &&
